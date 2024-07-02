@@ -23,26 +23,44 @@ function DisplayComponent() {
                 <div className='flex-1 flex justify-center items-center bg-slate-300 rounded-lg'>Gauge Display</div>
             </div>
 
-            {/* PARTICLE MATTER */}
+            {/* PARTICULATE MATTER */}
 
             <div className='flex-1 rounded-lg flex flex-col p-2'>
 
-                <div className='text-lg font-bold'>
-                    PARTICLE MATTER
+                <div className='text-lg font-black'>
+                    PARTICULATE MATTER
                 </div>
                
-                <div className='flex-1 p-1 flex'>
-                    <div className='flex-1 shadow-lg bg-white rounded-xl m-1'></div>
-                    <div className='flex-1 shadow-lg bg-white rounded-xl m-1'></div>
-                    <div className='flex-1 shadow-lg bg-white rounded-xl m-1'></div>
+                <div className='flex-1 flex font-bold'>
+
+                    {/* PM 1.0 */}
+
+                    <div className='flex-1 shadow-lg bg-white rounded-xl m-1 flex flex-col justify-center items-center p-2'>
+                        <div className='flex-1 flex justify-center items-center text-7xl'>25</div>
+                        <div className='bg-black rounded-full text-white text-center text-sm w-full'>μg/m³ (PM 1.0)</div>
+                    </div>
+
+                     {/* PM 2.5 */}
+
+                    <div className='flex-1 shadow-lg bg-white rounded-xl m-1 flex flex-col justify-center items-center p-2'>
+                        <div className='flex-1 flex justify-center items-center text-7xl'>25</div>
+                        <div className='bg-black rounded-full text-white text-center text-sm w-full'>μg/m³ (PM 1.0)</div>
+                    </div>
+
+                     {/* PM 10.0 */}
+
+                    <div className='flex-1 shadow-lg bg-white rounded-xl m-1 flex flex-col justify-center items-center p-2'>
+                        <div className='flex-1 flex justify-center items-center text-7xl'>25</div>
+                        <div className='bg-black rounded-full text-white text-center text-sm w-full'>μg/m³ (PM 1.0)</div>
+                    </div>
                 </div>
             </div>
 
             {/* DUST */}
 
-             <div className='flex-1 rounded-lg flex flex-col p-2'>
+             <div className='flex-1 rounded-lg flex flex-col p-3'>
 
-                <div className='text-lg font-bold'>
+                <div className='text-lg font-black'>
                     DUST CONCENTRATION
                 </div>
                
