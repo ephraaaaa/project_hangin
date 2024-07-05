@@ -1,5 +1,5 @@
 import React from 'react'
-
+import GaugeComponent from './GaugeComponent'
 
 function DisplayComponent() {
     return (
@@ -20,7 +20,9 @@ function DisplayComponent() {
                         <div className='text-sm'>Catbalogan City, Samar - 6700</div>
                     </div>
                 </div>
-                <div className='flex-1 flex justify-center items-center bg-slate-300 rounded-lg'>Gauge Display</div>
+                <div className='flex-1 flex justify-center items-center rounded-lg'>
+                    <GaugeComponent value={75}/>
+                </div>
             </div>
 
             {/* PARTICULATE MATTER */}
@@ -37,21 +39,21 @@ function DisplayComponent() {
 
                     <div className='flex-1 shadow-lg bg-white rounded-xl m-1 flex flex-col justify-center items-center p-2'>
                         <div className='flex-1 flex justify-center items-center text-7xl'>25</div>
-                        <div className='bg-black rounded-full text-white text-center text-sm w-full'>μg/m³ (PM 1.0)</div>
+                        <div className='bg-black rounded-full text-white text-center text-sm w-full'> μg/m³ (PM 1.0)</div>
                     </div>
 
-                     {/* PM 2.5 */}
+                     {/* PM 2.5 */} 
 
                     <div className='flex-1 shadow-lg bg-white rounded-xl m-1 flex flex-col justify-center items-center p-2'>
                         <div className='flex-1 flex justify-center items-center text-7xl'>25</div>
-                        <div className='bg-black rounded-full text-white text-center text-sm w-full'>μg/m³ (PM 1.0)</div>
+                        <div className='bg-black rounded-full text-white text-center text-sm w-full'> μg/m³ (PM 1.0)</div>
                     </div>
 
                      {/* PM 10.0 */}
 
                     <div className='flex-1 shadow-lg bg-white rounded-xl m-1 flex flex-col justify-center items-center p-2'>
                         <div className='flex-1 flex justify-center items-center text-7xl'>25</div>
-                        <div className='bg-black rounded-full text-white text-center text-sm w-full'>μg/m³ (PM 1.0)</div>
+                        <div className='bg-black rounded-full text-white text-center text-sm w-full'> μg/m³ (PM 1.0)</div>
                     </div>
                 </div>
             </div>
