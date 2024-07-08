@@ -8,14 +8,8 @@ const HeatmapLayer = ({ data }) => {
 
   useEffect(() => {
     if (!map) return;
-
-    // Create heatmap layer
-    const heatLayer = L.heatLayer(data, { radius: 25 });
-
-    // Add heatmap layer to the map
+    const heatLayer = L.heatLayer(data, { radius: 20 });
     heatLayer.addTo(map);
-
-    // Clean up on unmount
     return () => {
       map.removeLayer(heatLayer);
     };
