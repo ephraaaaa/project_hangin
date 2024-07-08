@@ -16,7 +16,7 @@ const MapComponent = () => {
       zoom={100}
       style={{ height: '100vh', width: '100%' }}
       zoomControl={false}
-      scrollWheelZoom={false}
+      scrollWheelZoom={false} 
       doubleClickZoom={false}
       dragging={false}
       attributionControl={false}
