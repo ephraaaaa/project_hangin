@@ -6,7 +6,7 @@ const LoginScreen = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle login logic here
+    // Handle login logic 
     console.log('Login submitted', { username, password });
   };
 
