@@ -5,8 +5,7 @@ import HeatmapLayer from './HeatmapLayer';
 
 const airQualityData = [
   [11.77520,124.88402],
-  [11.77469,124.88421],
-  [11.77478,124.88357],
+
 ];
 
 const MapComponent = () => {
@@ -18,7 +17,7 @@ const MapComponent = () => {
       zoomControl={false}
       scrollWheelZoom={false} 
       doubleClickZoom={false}
-      dragging={false}
+      dragging={true}
       attributionControl={false}
     >
       <TileLayer

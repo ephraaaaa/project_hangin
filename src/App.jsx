@@ -2,10 +2,11 @@ import { useState } from 'react'
 import DisplayComponent from './DisplayComponent'
 import useFetchData from './useDataFetch';
 import LoginScreen from './LoginScreen';
+import MapComponent from './MapComponent';
 function App() {
 
   return (
-      <LoginScreen></LoginScreen>  
+     <MapComponent></MapComponent>
   );
 }
 
